@@ -1,0 +1,27 @@
+Started by user [8mha:////4L6dwgeFJjNqryd98+x0Da6rKuA0tBxULFtFnde0duatAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0mDiane
+Building in workspace C:\Program Files (x86)\Jenkins\workspace\Perf-JMeterDashBoard
+[Perf-JMeterDashBoard] $ cmd /c call C:\WINDOWS\TEMP\jenkins4739399691609782433.bat
+
+C:\Program Files (x86)\Jenkins\workspace\Perf-JMeterDashBoard>"C:\Program Files\apache-jmeter-4.0\bin\jmeter.bat" -n -t "D:\SandBox\JMeter_DashBoards\Demo.jmx" -l "D:\SandBox\JMeter_DashBoards\Sample.csv" -e -o "D:\SandBox\JMeter_DashBoards\Jenkins" 
+Creating summariser <summary>
+Created the tree successfully using D:\SandBox\JMeter_DashBoards\Demo.jmx
+Starting the test @ Mon Jul 02 12:15:33 NZST 2018 (1530490533413)
+Waiting for possible Shutdown/StopTestNow/Heapdump message on port 4445
+summary +    373 in 00:00:24 =   15.6/s Avg:   280 Min:    50 Max:   515 Err:     0 (0.00%) Active: 8 Started: 8 Finished: 0
+summary +   1082 in 00:00:30 =   36.1/s Avg:   272 Min:    50 Max:   500 Err:     0 (0.00%) Active: 10 Started: 10 Finished: 0
+summary =   1455 in 00:00:54 =   27.0/s Avg:   274 Min:    50 Max:   515 Err:     0 (0.00%)
+summary +   1096 in 00:00:30 =   36.5/s Avg:   274 Min:    50 Max:   499 Err:     0 (0.00%) Active: 10 Started: 10 Finished: 0
+summary =   2551 in 00:01:24 =   30.4/s Avg:   274 Min:    50 Max:   515 Err:     0 (0.00%)
+summary +   1083 in 00:00:30 =   36.1/s Avg:   276 Min:    50 Max:   499 Err:     0 (0.00%) Active: 10 Started: 10 Finished: 0
+summary =   3634 in 00:01:54 =   31.9/s Avg:   274 Min:    50 Max:   515 Err:     0 (0.00%)
+summary +   1088 in 00:00:30 =   36.3/s Avg:   276 Min:    50 Max:   499 Err:     0 (0.00%) Active: 10 Started: 10 Finished: 0
+summary =   4722 in 00:02:24 =   32.8/s Avg:   275 Min:    50 Max:   515 Err:     0 (0.00%)
+summary +   1084 in 00:00:30 =   36.2/s Avg:   276 Min:    50 Max:   500 Err:     0 (0.00%) Active: 10 Started: 10 Finished: 0
+summary =   5806 in 00:02:54 =   33.4/s Avg:   275 Min:    50 Max:   515 Err:     0 (0.00%)
+summary +    228 in 00:00:06 =   35.2/s Avg:   281 Min:    50 Max:   506 Err:     0 (0.00%) Active: 0 Started: 10 Finished: 10
+summary =   6034 in 00:03:00 =   33.4/s Avg:   275 Min:    50 Max:   515 Err:     0 (0.00%)
+Tidying up ...    @ Mon Jul 02 12:18:36 NZST 2018 (1530490716486)
+... end of run
+[htmlpublisher] Archiving HTML reports...
+[htmlpublisher] Archiving at BUILD level D:\SandBox\JMeter_DashBoards\Jenkins to C:\Program Files (x86)\Jenkins\jobs\Perf-JMeterDashBoard\builds\8\htmlreports\HTML_20DashBoard_20Report
+Finished: SUCCESS
